@@ -31,7 +31,7 @@ Issue ```sh audio-downloader``` in the directory of which the script is located.
 - The Linux version would download the the mp3 files to your current ```pwd```
 - The WSL version would always download the mp3 files to ```C:\youtube-dl```
 
-# Food for though
+# Food for thought
 - Modifiying the flag ``` -f``` within the script can allow you to download files from other online media sources(such as sound cloud)
 - Modifying the flag ```-o``` within in the script will allow you to change the download location, download naming scheme(including creating new folder on download for playlists for example)
 - With more modifications it can work on android(using 'Termux')<hr>However if you can do any of this you're better off creating your own shell scripts as you see fit this is inteanded for absolute beginners :)
