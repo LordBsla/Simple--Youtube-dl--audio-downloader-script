@@ -23,7 +23,7 @@ cd <download dir>/<script version>
 mv audio-downloader ~
 ```
 # Notes:
-- The Linux version would downloadload the the mp3 files to your current ```pwd```
+- The Linux version would download the the mp3 files to your current ```pwd```
 - The WSL version would always download the mp3 files to ```C:\youtube-dl```
 
 # Food for though
