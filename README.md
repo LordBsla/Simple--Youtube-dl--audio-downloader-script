@@ -22,6 +22,8 @@ sudo apt install youtube-dl ffmpeg
 cd <download dir>/<script version>
 mv audio-downloader ~
 ```
+ - Example: <br>```cd /mnt/Storage/Downloads/Simple--Youtube-dl--audio-downloader-script/Linux\ shell```<br>
+```mv audio-downloader ~```
 # Usage
 Issue ```sh audio-downloader``` in the directory of which the script is located. In our case it's the home directory ```~``` it will ask you for the video URL
 
@@ -32,4 +34,4 @@ Issue ```sh audio-downloader``` in the directory of which the script is located.
 # Food for though
 - Modifiying the flag ``` -f``` within the script can allow you to download files from other online media sources(such as sound cloud)
 - Modifying the flag ```-o``` within in the script will allow you to change the download location, download naming scheme(including creating new folder on download for playlists for example)
-- With more modifications it can work on android(using 'Termux')<hr>However if you can do any of this however you're better off creating your own shell scripts as you see fit this is inteanded for absolute beginners :)
+- With more modifications it can work on android(using 'Termux')<hr>However if you can do any of this you're better off creating your own shell scripts as you see fit this is inteanded for absolute beginners :)
