@@ -9,7 +9,7 @@ A simple shell script that automates the usage of 'youtube-dl' for downloading a
 # Requirements:<br>
 
  - A 'Linux' shell (can work on Windows via the 'Windows subsystem for Linux ')
- - The packages ```youtube-dl``` & ```ffmeg``` packages installed
+ - The packages ```youtube-dl``` & ```ffmeg``` should be installed
 
  
  # Setup:
