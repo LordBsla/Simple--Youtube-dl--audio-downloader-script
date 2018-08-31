@@ -1,0 +1,6 @@
+echo "Please Enter the URL of the video (Audio downloader)"
+
+read btates
+mkdir /mnt/c/youtube-dl
+clear
+youtube-dl -x --audio-format mp3 -f 140  --add-metadata --embed-thumbnail -o "/mnt/c/youtube-dl/%(title)s.%(ext)s" $btates
