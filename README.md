@@ -22,6 +22,9 @@ sudo apt install youtube-dl ffmpeg
 cd <download dir>/<script version>
 mv audio-downloader ~
 ```
+# Usage
+Issue ```sh audio-downloader``` in the directory of which the script is located. In our case it's the home directory ```~``` it will ask you for the video URL
+
 # Notes:
 - The Linux version would download the the mp3 files to your current ```pwd```
 - The WSL version would always download the mp3 files to ```C:\youtube-dl```
