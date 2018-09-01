@@ -1,7 +1,6 @@
 # Simple--Youtube-dl--audio-downloader-script
-<hr>
 
-A simple shell script that automates the usage of 'youtube-dl' for downloading audio from youtube<br>
+A simple shell script that automates the usage of ```youtube-dl``` for downloading audio from youtube<br>
 # Information<br>
 -embeds the video stream thumbnail to the downloaded file(via ffmpeg)<br><br>
 -downloads audio at at 127kbps(won't work if the video is at a lower audio quality)<br>
